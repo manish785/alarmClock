@@ -4,14 +4,13 @@
         <title>Alarm Clock using JS</title>
         <link rel="stylesheet" href="style.css">
 
+        <!-- adding the fontawesome link -->
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"/>
     </head>
     <body>
        <div class="container">
+           <!-- To display the time -->
            <div id="clock"></div>
 
          <input
@@ -20,6 +19,8 @@
            type="datetime-local"
          />
 
+
+        <!-- // this div contains two button - one for setAlarm and other for clearAlarm  -->
         <div class="controls">
             <button class="button set-alarm" onclick="setAlarm()">Set alarm</button>
             <button class="button clear-alarm" onclick="clearAlarm()">Clear alarm</button>
